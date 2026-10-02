@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="sq" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asdreni – Poeti i Himnit të Flamurit</title>
+  <meta name="description" content="Biografia e gjerë e Asdrenit (Aleksandër Stavre Drenova, 1872–1947): jeta, krijimtaria, kronologji interaktive, hartë dhe kuiz.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a href="#hyrje" class="brand">Asdreni</a>
+    <nav id="menu">
+      <a href="#jeta">Jeta</a>
+      <a href="#kronologjia">Kronologjia</a>
+      <a href="#harta">Udhëtimi</a>
+      <a href="#veprat">Veprat</a>
+      <a href="#himni">Himni</a>
+      <a href="#kuizi">Kuizi</a>
+      <a href="#galeria">Galeria</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn" id="themeBtn" aria-label="Ndrysho temën" title="Ndrysho temën">☾</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Hap menunë">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hyrje">
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow">11 prill 1872 &nbsp;·&nbsp; 11 dhjetor 1947</p>
+      <h1 id="heroTitle" aria-label="Asdreni">Asdreni</h1>
+      <p class="subtitle">Aleksandër Stavre Drenova</p>
+      <p class="lead">Poet, publicist dhe atdhetar i Rilindjes Kombëtare. Nga një fshat afër Korçës deri në Bukuresht, vargjet e tij u bënë zëri i një kombi.</p>
+      <a href="#jeta" class="btn">Zbulo historinë</a>
+    </div>
+    <a href="#stats" class="scroll-hint" aria-label="Zbrit poshtë"><span></span></a>
+  </section>
+
+  <!-- NUMRA -->
+  <section class="stats" id="stats">
+    <div class="stat"><strong data-count="75">0</strong><span>vite jetë</span></div>
+    <div class="stat"><strong data-count="3">0</strong><span>përmbledhje poetike të botuara</span></div>
+    <div class="stat"><strong data-count="198">0</strong><span>poezi në dy vëllimet e para</span></div>
+    <div class="stat"><strong data-count="1912">0</strong><span>viti i Betimit mbi Flamur</span></div>
+  </section>
+
+  <main>
+
+    <!-- JETA -->
+    <section class="section" id="jeta">
+      <p class="kicker">Biografia</p>
+      <h2 class="reveal">Jeta e Asdrenit</h2>
+
+      <div class="bio-layout">
+        <aside class="chapter-index" aria-label="Kapitujt">
+          <ol id="chapterIndex">
+            <li><a href="#k1" class="active">Fëmijëria në Drenovë</a></li>
+            <li><a href="#k2">Bukureshti</a></li>
+            <li><a href="#k3">Zëri poetik</a></li>
+            <li><a href="#k4">Viti 1912</a></li>
+            <li><a href="#k5">Në shërbim të komunitetit</a></li>
+            <li><a href="#k6">Psalme murgu</a></li>
+            <li><a href="#k7">Vitet e fundit</a></li>
+            <li><a href="#k8">Trashëgimia</a></li>
+          </ol>
+        </aside>
+
+        <article class="bio-text">
+          <figure class="portrait reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Asdreni_(portrait).jpg?width=700" alt="Portret i Asdrenit, 1938" loading="lazy" onerror="this.closest('figure').style.display='none'">
+            <figcaption>Asdreni, 22 shkurt 1938 · Foto: Geg Marubi (Muzeu Kombëtar i Fotografisë “Marubi”)</figcaption>
+          </figure>
+
+          <section class="chapter reveal" id="k1">
+            <span class="ch-no">I</span>
+            <h3>Fëmijëria në Drenovë</h3>
+            <p>Aleksandër Stavre Drenova lindi më 11 prill 1872 në Drenovë, një fshat pranë Korçës, që në atë kohë ishte pjesë e Perandorisë Osmane. Familja e tij ishte fshatare, e besimit ortodoks; babai i quhej Stavri Thimiu.</p>
+            <p>Mësimet e para i mori në shkollën fillore greke të fshatit, sepse shkollat shqipe ishin ende të ndaluara. Më pas vazhdoi shkollën e mesme në Korçë, por studimet iu ndërprenë kur i vdiq babai.</p>
+            <p>Pseudonimin <strong>Asdreni</strong> e krijoi nga inicialet e emrit dhe nga emri i vendlindjes, Drenova: një mënyrë për ta mbajtur fshatin me vete gjithë jetën.</p>
+          </section>
+
+          <section class="chapter reveal" id="k2">
+            <span class="ch-no">II</span>
+            <h3>Bukureshti</h3>
+            <p>Në vitin 1885 u nis për në Bukuresht, ku e priste një nga vëllezërit më të mëdhenj. Qyteti ishte atëherë një nga qendrat më të gjalla të emigracionit shqiptar, ku mërgimtarët botonin gazeta dhe organizonin shoqëri për gjuhën dhe arsimin shqip.</p>
+            <p>Ndoqi Akademinë Tregtare dhe u regjistrua në Fakultetin e Shkencave Politike të Universitetit të Bukureshtit, por nuk e përfundoi. Në atë mjedis u lidh me intelektualë e shkrimtarë shqiptarë dhe u ushqye nga shembulli i Girolamo de Radës dhe i Naim Frashërit.</p>
+          </section>
+
+          <section class="chapter reveal" id="k3">
+            <span class="ch-no">III</span>
+            <h3>Zëri poetik</h3>
+            <p>Rreth vitit 1900 filloi të botonte poezi dhe artikuj. Faik bej Konica e zbuloi dhe e botoi në revistën <em>Albania</em>; shkrimet e tij dolën gjithashtu në <em>Kalendari Kombëtar</em> dhe në <em>Drita</em>.</p>
+            <p>Në vitin 1904 doli përmbledhja e parë, <em>Rreze dielli</em>: 99 poezi të ndara në pesë cikle (atdhetare, luftarake, filozofike, romantike dhe satirike), kushtuar Skënderbeut. Ishte poezi e fortë atdhetare, në traditën e Naim Frashërit, por me zë të vetin.</p>
+          </section>
+
+          <section class="chapter reveal" id="k4">
+            <span class="ch-no">IV</span>
+            <h3>Viti 1912</h3>
+            <p>Viti i Pavarësisë ishte edhe viti më i madh i tij. Më 21 prill 1912 poezia <em>Betimi mbi Flamur</em> u botua në gazetën <em>Liri e Shqipërisë</em> në Sofje. Po atë vit doli vëllimi <em>Ëndrra e lotë</em>, përsëri me 99 poezi, kushtuar Edith Durham dhe i konsideruar një hap nga Romantizmi drejt Realizmit.</p>
+            <p>Më 5 nëntor 1912 mori pjesë në Kuvendin e Bukureshtit, ku shqiptarët e diasporës shpallën pavarësinë. Pak ditë më vonë, më 28 nëntor, poezia e tij, e kënduar me melodinë e Ciprian Porumbescut, filloi të njihej si himn kombëtar.</p>
+          </section>
+
+          <section class="chapter reveal" id="k5">
+            <span class="ch-no">V</span>
+            <h3>Në shërbim të komunitetit</h3>
+            <p>Poeti nuk qëndroi vetëm te letrat. Nga viti 1913 deri në 1925 ishte sekretar i kolonisë shqiptare në Rumani, dhe prej 1922 deri në 1934, me ndërprerje, sekretar i Konsullatës shqiptare në Bukuresht.</p>
+            <p>E vizitoi atdheun disa herë: në vitet 1889, 1914 dhe 1937. Sipas disa burimeve, pas vizitës së vitit 1914 u kthye i zhgënjyer nga gjendja e vendit, ndërsa pas dështimit të lëvizjes demokratike të vitit 1924 u tërhoq nga jeta politike.</p>
+          </section>
+
+          <section class="chapter reveal" id="k6">
+            <span class="ch-no">VI</span>
+            <h3>Psalme murgu</h3>
+            <p>Në vitin 1930 botoi përmbledhjen e tretë, <em>Psalme murgu</em>, e ndarë në katër cikle: “Flamuri dhe vatra”, “Vallja e jetës”, “Ngjyrat e ylberit” dhe “Lule e gjemba”. Kritika e sheh si kalim nga Romantizmi drejt Simbolizmit dhe si një nga hyrjet e para të frymës moderniste në letërsinë shqipe.</p>
+            <p>Ai la gati edhe një vëllim tjetër, <em>Kambana e Krujës</em>; burimet nuk janë njëzëri nëse u botua gjatë jetës së tij.</p>
+          </section>
+
+          <section class="chapter reveal" id="k7">
+            <span class="ch-no">VII</span>
+            <h3>Vitet e fundit</h3>
+            <p>Asdreni vdiq më 11 dhjetor 1947 në Bukuresht, në moshën 75-vjeçare, larg Drenovës që e kishte ndjekur në çdo varg. U varros fillimisht në varrezat Sfânta Vineri. Sipas Wikipedisë, eshtrat e tij u sollën në vendlindje, në Drenovë, në vitin 1974.</p>
+          </section>
+
+          <section class="chapter reveal" id="k8">
+            <span class="ch-no">VIII</span>
+            <h3>Trashëgimia</h3>
+            <p>Asdreni konsiderohet një nga shkrimtarët më me ndikim të shekullit XX. Poezia e tij solli tema sociale në letërsinë shqipe dhe e pasuroi gjuhën me strofa e simbole të reja.</p>
+            <p>Më 30 qershor 2021 Banka e Shqipërisë nxori në qarkullim kartëmonedhën 10 000 lekëshe me portretin e tij, një nder për poetin që i dha vendit vargjet që këndohen ende në çdo ceremoni shtetërore.</p>
+          </section>
+        </article>
+      </div>
+    </section>
+
+    <!-- KRONOLOGJIA -->
+    <section class="section alt" id="kronologjia">
+      <div class="wrap">
+        <p class="kicker">Interaktive</p>
+        <h2 class="reveal">Kronologjia</h2>
+        <p class="hint reveal">Kliko një vit, përdor shigjetat ose tastet ← → për të lëvizur nëpër jetën e poetit.</p>
+
+        <div class="tl reveal">
+          <div class="tl-track-wrap">
+            <div class="tl-track" id="tlTrack" role="tablist" aria-label="Ngjarjet"></div>
+          </div>
+          <div class="tl-bar"><span id="tlFill"></span></div>
+          <article class="tl-card" id="tlCard" aria-live="polite">
+            <div class="tl-meta"><span id="tlDate"></span><span class="tl-tag" id="tlTag"></span></div>
+            <h3 id="tlTitle"></h3>
+            <p id="tlText"></p>
+          </article>
+          <div class="tl-ctrl">
+            <button class="ctrl" id="tlPrev" aria-label="Më parë">←</button>
+            <span id="tlCount">1 / 1</span>
+            <button class="ctrl" id="tlNext" aria-label="Më pas">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HARTA -->
+    <section class="section" id="harta">
+      <p class="kicker">Interaktive</p>
+      <h2 class="reveal">Udhëtimi i një poeti</h2>
+      <p class="hint reveal">Hartë skematike. Kliko vendet për të parë çfarë ndodhi aty.</p>
+
+      <div class="map-layout reveal">
+        <div class="map-box">
+          <svg viewBox="0 0 800 460" id="map" role="img" aria-label="Hartë skematike e udhëtimit të Asdrenit">
+            <defs>
+              <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+                <path d="M50 0H0V50" fill="none" stroke="currentColor" stroke-opacity=".12"/>
+              </pattern>
+            </defs>
+            <rect width="800" height="460" fill="url(#grid)"/>
+            <!-- rruga Drenovë -> Sofje -> Bukuresht -->
+            <path id="route" d="M246 361 C 300 300, 360 250, 421 208 S 560 120, 617 82" class="route"/>
+            <!-- kthimi -->
+            <path d="M617 82 C 540 160, 380 330, 246 361" class="route back"/>
+            <!-- Vlorë -->
+            <path d="M246 361 L154 371" class="route short"/>
+
+            <g class="pin" data-pin="drenove" tabindex="0" role="button" aria-label="Drenovë, Korçë">
+              <circle class="pulse" cx="246" cy="361" r="10"/><circle class="dot" cx="246" cy="361" r="8"/>
+              <text x="262" y="388">Drenovë · Korçë</text>
+            </g>
+            <g class="pin" data-pin="vlore" tabindex="0" role="button" aria-label="Vlorë">
+              <circle class="pulse" cx="154" cy="371" r="10"/><circle class="dot" cx="154" cy="371" r="8"/>
+              <text x="60" y="400">Vlorë</text>
+            </g>
+            <g class="pin" data-pin="sofje" tabindex="0" role="button" aria-label="Sofje">
+              <circle class="pulse" cx="421" cy="208" r="10"/><circle class="dot" cx="421" cy="208" r="8"/>
+              <text x="437" y="214">Sofje</text>
+            </g>
+            <g class="pin" data-pin="bukuresht" tabindex="0" role="button" aria-label="Bukuresht">
+              <circle class="pulse" cx="617" cy="82" r="10"/><circle class="dot" cx="617" cy="82" r="8"/>
+              <text x="633" y="76">Bukuresht</text>
+            </g>
+          </svg>
+        </div>
+
+        <aside class="map-info" id="mapInfo" aria-live="polite">
+          <h3 id="miTitle">Drenovë · Korçë</h3>
+          <span class="tl-tag" id="miYears">1872 – 1885</span>
+          <p id="miText">Këtu lindi dhe kaloi fëmijërinë poeti. Mësoi në shkollën fillore greke të fshatit dhe vazhdoi në Korçë, derisa vdekja e babait ia ndërpreu shkollimin.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- VEPRAT -->
+    <section class="section alt" id="veprat">
+      <div class="wrap">
+        <p class="kicker">Krijimtaria</p>
+        <h2 class="reveal">Veprat</h2>
+
+        <div class="works reveal">
+          <div class="work-tabs" id="workTabs" role="tablist"></div>
+          <div class="work-panel" id="workPanel" aria-live="polite">
+            <div class="work-head">
+              <span class="work-year" id="wYear"></span>
+              <h3 id="wTitle"></h3>
+            </div>
+            <p id="wText"></p>
+            <ul class="work-facts" id="wFacts"></ul>
+            <div class="cycles" id="wCycles"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIMNI -->
+    <section class="section" id="himni">
+      <p class="kicker">Historia e një himni</p>
+      <h2 class="reveal">Rruga e Himnit të Flamurit</h2>
+      <div class="steps reveal" id="steps">
+        <div class="step-nav" id="stepNav"></div>
+        <div class="step-body">
+          <h3 id="sTitle"></h3>
+          <p id="sText"></p>
+        </div>
+        <div class="step-bar"><span id="sFill"></span></div>
+      </div>
+    </section>
+
+    <!-- KUIZI -->
+    <section class="section alt" id="kuizi">
+      <div class="wrap narrow">
+        <p class="kicker">Interaktive</p>
+        <h2 class="reveal">Sa mirë e njeh Asdrenin?</h2>
+        <div class="quiz reveal" id="quiz">
+          <div class="q-top"><span id="qNo"></span><span id="qScore"></span></div>
+          <h3 id="qText"></h3>
+          <div class="q-options" id="qOptions"></div>
+          <p class="q-feedback" id="qFeedback" aria-live="polite"></p>
+          <button class="btn dark" id="qNext" hidden>Vazhdo</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+      <p class="kicker">Arkiva</p>
+      <h2 class="reveal">Galeria</h2>
+      <p class="hint reveal">Kliko një foto për ta zmadhuar.</p>
+      <div class="gallery">
+        <figure class="g-item reveal">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Asdreni_(portrait).jpg?width=700" alt="Portret i Asdrenit, 1938" loading="lazy" onerror="this.closest('figure').style.display='none'">
+          <figcaption>Portret, 1938</figcaption>
+        </figure>
+        <figure class="g-item reveal">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Postcard_of_Alexandre_Stavre_Drenova_around_1900-1910.jpg?width=700" alt="Kartolinë me Asdrenin, rreth 1900–1910" loading="lazy" onerror="this.closest('figure').style.display='none'">
+          <figcaption>Kartolinë, rreth 1900–1910</figcaption>
+        </figure>
+        <figure class="g-item reveal">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lasgush_Poradeci,_Ernest_Koliqi,_At_Gjergj_Fishta_and_Asdreni.jpg?width=700" alt="Asdreni me Lasgush Poradecin, Ernest Koliqin dhe At Gjergj Fishtën" loading="lazy" onerror="this.closest('figure').style.display='none'">
+          <figcaption>Me Poradecin, Koliqin dhe Fishtën</figcaption>
+        </figure>
+        <figure class="g-item reveal">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kolonia_Shqiptare_e_Bukureshtit.jpg?width=900" alt="Kolonia Shqiptare e Bukureshtit" loading="lazy" onerror="this.closest('figure').style.display='none'">
+          <figcaption>Kolonia Shqiptare e Bukureshtit</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- BURIMET -->
+    <section class="section sources" id="burimet">
+      <h2 class="reveal">Burimet</h2>
+      <ul class="reveal">
+        <li><a href="https://en.wikipedia.org/wiki/Aleksand%C3%ABr_Stavre_Drenova" target="_blank" rel="noopener">Wikipedia – Aleksandër Stavre Drenova</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Himni_i_Flamurit" target="_blank" rel="noopener">Wikipedia – Himni i Flamurit</a></li>
+        <li><a href="https://observerkult.com/asdreni-poeti-publicisti-dhe-aktivisti-i-ceshtjes-kombetare/" target="_blank" rel="noopener">ObserverKult – Asdreni, poeti, publicisti dhe aktivisti</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/Category:Aleksand%C3%ABr_Stavre_Drenova" target="_blank" rel="noopener">Wikimedia Commons – fotot</a></li>
+      </ul>
+      <p class="note">Burimet nuk përputhen gjithmonë (p.sh. për vitin e nisjes për në Rumani dhe botimin e <em>Kambana e Krujës</em>); këtu janë përdorur datat më të përsëritura.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Asdreni (1872–1947) · Faqe përkujtimore</p>
+    <a href="#hyrje">↑ Kthehu lart</a>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Foto e zmadhuar">
+    <button class="lb-close" id="lbClose" aria-label="Mbyll">✕</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
